@@ -1,0 +1,37 @@
+import { RoadChart } from "./RoadChart";
+import { RoadBall } from "./RoadBall";
+
+let road:RoadChart = new RoadChart(6,10);
+
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(2));
+road.AddBeat(new RoadBall(2));
+road.AddBeat(new RoadBall(2));
+road.AddBeat(new RoadBall(2));
+road.AddBeat(new RoadBall(2));
+road.AddBeat(new RoadBall(2));
+road.AddBeat(new RoadBall(2));
+road.AddBeat(new RoadBall(2));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(2));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(1));
+road.AddBeat(new RoadBall(2));
+road.AddBeat(new RoadBall(3));
+road.PrintDebug();
